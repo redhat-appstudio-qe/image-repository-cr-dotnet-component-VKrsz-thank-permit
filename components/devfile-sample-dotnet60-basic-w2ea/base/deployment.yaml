@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-dotnet60-basic-w2ea
     spec:
       containers:
-      - image: dotnet-image:latest
+      - image: quay.io/rsoaresd_org/spi-demos-myjp-tenant/image-repository-cr-dotnet-component/devfile-sample-dotnet60-basic-w2ea
         imagePullPolicy: Always
         name: main
         ports:
