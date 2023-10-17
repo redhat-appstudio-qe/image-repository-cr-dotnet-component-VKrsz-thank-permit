@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-dotnet60-basic-w2ea
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/rsoaresd_org/spi-demos-myjp-tenant/image-repository-cr-dotnet-component/devfile-sample-dotnet60-basic-w2ea@sha256:18cad7c96d8601eb610409a08643494e4fd1993238184d0f334551e4d59f8399
+        name: main
+        resources: {}
+status: {}
